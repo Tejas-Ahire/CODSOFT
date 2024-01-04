@@ -1,0 +1,230 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+#heading{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.9rem;
+    margin-left: 4rem;
+    margin-right: 2rem;
+    font-style: normal;
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url('/assests/Background\ 1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: -2.5rem;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+   
+    height: 80px;
+}
+.navbar-media{
+    margin-left: 7rem;
+    display: flex;
+    
+}
+.navbar-header{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.media-content {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.hero-section{
+    height: 105vh;
+}
+#book-home{
+    margin-left: 4rem;
+}
+#book-table{
+    transition:ease;
+    transition-duration: 0.4s;
+    margin-left: 1rem;
+    
+}
+#book-home{
+    height: 36px;
+    width: 90px;
+}
+#book-home:hover{
+    height: 36px;
+    color: rgb(255 189 9);
+    width: 90px;
+    background-color: rgba(157, 157, 157, 0.352);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center; 
+}
+#book-table{
+    height: 36px;
+    width: 140px;
+    margin-left: 57px;
+}
+#book-table:hover{
+    height: 36px;
+    width: 140px;
+    color: rgb(255 189 9);
+    background-color: rgba(157, 157, 157, 0.352);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.menu-items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    
+}
+#heading-0ne{
+    font-size: 2rem;
+    color: white;
+    margin-top: 15rem;
+    text-align: center;
+}
+#quote{
+    color: white;
+    font-size: 1.2rem;
+}
+#menu-img{
+    height: 100px;
+    width: 100px;
+    margin: 1rem;
+    border-radius: 50%;
+}
+.second-half{
+    margin-top: 6rem;
+    
+}
+.menu1{
+    background-color: rgba(96, 96, 96, 0.352);
+    width: 13rem;
+    height: 16rem;
+    text-align: center;
+    margin: 2rem;
+    border-radius: 10px;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+.menu1:hover{
+    background-color: transparent;
+}
+#item-name{
+    font-size: 1.7rem;
+}
+
+.background2{
+    background: rgba(0,0,0,0.7) url('/assests/Menuandfooter\ img.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 95vh;
+}
+.open-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section1{
+    margin-top: 6rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    
+}
+.section2{
+    display: flex;
+    margin:2rem;
+    cursor: pointer;
+}
+#address2{
+    margin: 2rem;
+}
+.logo1{
+    margin-right: 2rem;
+}
+.address-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+}
+.ad-area1{
+    background-color: rgba(255, 255, 255, 0.121);
+    height: 10rem;
+    width: 10rem;
+    margin:1rem 5rem 1rem 5rem;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.ad-area1:hover{
+    background-color: rgba(96, 96, 96, 0.352);
+    cursor: pointer;
+}
+#addsec1{
+    font-size: 1.3rem;
+    line-height: 35px;
+}
+#addsec2{
+    font-size: 1rem;
+}
+@media only screen and (max-width:965px) {
+    #heading{
+        font-size: 1.2rem;
+    }
+
+}
+@media only screen and (max-width:822px) {
+    .navbar-media{
+        display: none;
+    }
+    #address1{
+       
+    }
+   
+}
+@media only screen and (max-width:596px) {
+
+    .hero-section{
+        height: 180vh;
+    }
+    .background2{
+        height: 117vh;
+    }
+}
+@media only screen and (max-width:1466px) {
+    .navbar-media{
+        display: none;
+    }
+}
+@media only screen and (max-width:687px) {
+    .background2{
+        height: 117vh;
+    }
+}
