@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="calci-data">
+        <div class="calci-name">
+          <p id="name">CASIO</p>
+        </div>
+        <div class="calci-solar"></div>
+      </div>
+      <input
+        type="text"
+        placeholder="00"
+        class="calculator-screen"
+        id="inputBox"
+        value="0"
+        disabled
+      />
+      <div class="calculator-keys">
+        <button type="button" class="button operator">+</button>
+        <button type="button" class="button operator">-</button>
+        <button type="button" class="button operator star">*</button>
+        <button type="button" class="button operator">/</button>
+
+        <button type="button" class="button">7</button>
+        <button type="button" class="button">8</button>
+        <button type="button" class="button">9</button>
+
+        <button type="button" class="button">4</button>
+        <button type="button" class="button">5</button>
+        <button type="button" class="button">6</button>
+
+        <button type="button" class="button">1</button>
+        <button type="button" class="button">2</button>
+        <button type="button" class="button">3</button>
+
+        <button type="button" class="button" value="0">0</button>
+
+        <button type="button" class="button operator all-clear orange" id="clear" value="all-clear">AC</button>
+        <button class="button operator orange">DEL</button>
+        <button type="button" class="button operator equalBtn">=</button>
+
+        <script src="script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
